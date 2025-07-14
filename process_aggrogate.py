@@ -44,19 +44,24 @@ def main():
     # Clear raw input directory
     for f in glob.glob(os.path.join(raw_dir,'*')):
         os.remove(f)
-    # Search for Radiacode Track files in Google Drive
-    query = "name contains 'RadiaCode Track'"
+    # Search for Radiacode track files in Google Drive
+    query = "name contains 'RadiaCode'"
     resp = drive.files().list(q=query,fields='files(id,name)').execute()
-    for file in resp.get('files',[]):
-        fid, name = file['id'], file['name']
+    # Download all found files with sequential filenames
+    download_count = 1
+    for item in resp.get('files', []):
+        fid = item['id']
+        # Sequential file naming
+        out_name = f"RadiaCode_Track_{download_count}.txt"
+        out_path = os.path.join(raw_dir, out_name)
         request = drive.files().get_media(fileId=fid)
-        out_path = os.path.join(raw_dir,name)
-        with open(out_path,'wb') as fh:
-            downloader = MediaIoBaseDownload(fh,request)
-            done=False
+        with open(out_path, 'wb') as fh:
+            downloader = MediaIoBaseDownload(fh, request)
+            done = False
             while not done:
-                _,done=downloader.next_chunk()
-        print(f'Downloaded {name}')
+                _, done = downloader.next_chunk()
+        print(f"Downloaded file {download_count}: {out_name}")
+        download_count += 1
     print("Downloaded files to raw directory, proceeding to aggregation...")
 
     # Prepare containers
@@ -64,18 +69,32 @@ def main():
     metadata = []
 
     # Process each raw text file
-    pattern = os.path.join(raw_dir, '*.txt')
+    pattern = os.path.join(raw_dir, '*')
     for fn in glob.glob(pattern):
-        # Read header line
-        with open(fn, 'r', encoding='utf-8') as f:
-            header = f.readline().strip()
-        # Load data skipping header
-        df = pd.read_csv(
-            fn,
-            skiprows=1,
-            sep='\t',
-            parse_dates=['Time']
-        )
+        # Read header line with error handling
+        try:
+            with open(fn, 'r', encoding='utf-8', errors='replace') as f:
+                header = f.readline().strip()
+        except Exception as e:
+            print(f"Skipping {os.path.basename(fn)}: header read failed ({e})")
+            continue
+        # Load data skipping header, with error handling
+        try:
+            df = pd.read_csv(
+                fn,
+                skiprows=1,
+                sep='\t'
+            )
+        except Exception as e:
+            print(f"Skipping {os.path.basename(fn)}: failed to read data ({e})")
+            continue
+        if 'Time' not in df.columns:
+            print(f"Skipping {os.path.basename(fn)}: 'Time' column missing")
+            continue
+        # Parse Time column
+        df['Time'] = pd.to_datetime(df['Time'], errors='coerce')
+        # Drop rows without valid Time
+        df = df.dropna(subset=['Time'])
         all_dfs.append(df)
         # Compute time range
         if not df.empty:
