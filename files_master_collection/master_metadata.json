@@ -1,314 +1,350 @@
 [
   {
     "file": "RadiaCode_Track_1.txt",
-    "header": "Track: 2025-07-12 20-15-35\tRC-102-008228\t \tEC",
-    "start_time": "133968393378780000",
-    "end_time": "133969217808460000"
+    "header": "Track: 2025-07-17 18-27-31\tRC-110-001069\t \tEC",
+    "start_time": "133972648535880000",
+    "end_time": "133976152158980000"
   },
   {
     "file": "RadiaCode_Track_10.txt",
-    "header": "Track: 2025-06-22 16-19-48\tRC-102-008228\t \tEC",
-    "start_time": "133950971914780000",
-    "end_time": "133952488919830000"
-  },
-  {
-    "file": "RadiaCode_Track_11.txt",
-    "header": "Track: 2025-06-22 07-50-36\tRC-102-008228\t \tEC",
-    "start_time": "133950666381740000",
-    "end_time": "133950875963250000"
-  },
-  {
-    "file": "RadiaCode_Track_12.txt",
-    "header": "Track: 2025-06-21 15-32-37\tRC-102-008228\t \tEC",
-    "start_time": "133950079597560000",
-    "end_time": "133950143607220000"
-  },
-  {
-    "file": "RadiaCode_Track_13.txt",
-    "header": "Track: 2025-06-20 11-40-18\tRC-102-008228\t \tEC",
-    "start_time": "133949076213100000",
-    "end_time": "133950030812820000"
-  },
-  {
-    "file": "RadiaCode_Track_14.txt",
-    "header": "Track: 2025-06-20 06-14-45\tRC-102-008228\t \tEC",
-    "start_time": "133948880873710000",
-    "end_time": "133949074787380000"
-  },
-  {
-    "file": "RadiaCode_Track_15.txt",
-    "header": "Track: 2025-06-19 10-20-19\tRC-102-008228\t \tEC",
-    "start_time": "133948164228890000",
-    "end_time": "133948315225810000"
-  },
-  {
-    "file": "RadiaCode_Track_16.txt",
-    "header": "Track: 2025-06-19 10-20-19\tRC-102-008228\t \tEC",
-    "start_time": "133948164228890000",
-    "end_time": "133948315065390000"
-  },
-  {
-    "file": "RadiaCode_Track_17.txt",
-    "header": "Track: 2025-06-18 15-20-15\tRC-102-008228\t \tEC",
-    "start_time": "133947480188670000",
-    "end_time": "133948164098140000"
-  },
-  {
-    "file": "RadiaCode_Track_18.txt",
-    "header": "Track: 2025-06-17 06-38-03\tRC-102-008228\t \tEC",
-    "start_time": "133946302847560000",
-    "end_time": "133947451691580000"
-  },
-  {
-    "file": "RadiaCode_Track_19.txt",
-    "header": "Track: 2025-06-16 06-12-40\tRC-102-008228\t \tEC",
-    "start_time": "133945423626690000",
-    "end_time": "133945881462600000"
-  },
-  {
-    "file": "RadiaCode_Track_2.txt",
-    "header": "Track: 2025-07-10 08-49-24\tRC-102-008228\t \tEC",
-    "start_time": "133966253673850000",
-    "end_time": "133968393228720000"
-  },
-  {
-    "file": "RadiaCode_Track_20.txt",
-    "header": "Track: 2025-06-14 14-11-11\tRC-102-008228\t \tEC",
-    "start_time": "133943982744200000",
-    "end_time": "133944995242070000"
-  },
-  {
-    "file": "RadiaCode_Track_21.txt",
-    "header": "Track: 2025-06-12 18-29-57\tRC-102-008228\t \tEC",
-    "start_time": "133942409998190000",
-    "end_time": "133943982600740000"
-  },
-  {
-    "file": "RadiaCode_Track_22.txt",
-    "header": "Track: 2025-06-10 06-10-23\tRC-102-008228\t \tEC",
-    "start_time": "133940238261540000",
-    "end_time": "133942409885120000"
-  },
-  {
-    "file": "RadiaCode_Track_23.txt",
-    "header": "Track: 2025-06-10 06-10-23\tRC-102-008228\t \tEC",
-    "start_time": "133940238261540000",
-    "end_time": "133942279702350000"
-  },
-  {
-    "file": "RadiaCode_Track_24.txt",
-    "header": "Track: 2025-06-09 06-17-30\tRC-102-008228\t \tEC",
-    "start_time": "133939378519830000",
-    "end_time": "133939758210790000"
-  },
-  {
-    "file": "RadiaCode_Track_26.txt",
-    "header": "Track: 2025-06-08 07-18-15\tRC-102-008228\t \tEC",
-    "start_time": "133938550988190000",
-    "end_time": "133938779444360000"
-  },
-  {
-    "file": "RadiaCode_Track_27.txt",
-    "header": "Track: 2025-06-08 07-18-15\tRC-102-008228\t \tEC",
-    "start_time": "133938550988190000",
-    "end_time": "133938779444360000"
-  },
-  {
-    "file": "RadiaCode_Track_28.txt",
-    "header": "Track: 2025-06-05 21-13-32\tRC-102-008228\t \tEC",
-    "start_time": "133936460139310000",
-    "end_time": "133938086451490000"
-  },
-  {
-    "file": "RadiaCode_Track_29.txt",
-    "header": "Track: 2025-06-05 21-13-32\tRC-102-008228\t \tEC",
-    "start_time": "133936460139310000",
-    "end_time": "133937933908770000"
-  },
-  {
-    "file": "RadiaCode_Track_3.txt",
-    "header": "Track: 2025-07-06 07-55-12\tRC-102-008228\t \tEC",
-    "start_time": "133962765147520000",
-    "end_time": "133966247765500000"
-  },
-  {
-    "file": "RadiaCode_Track_30.txt",
-    "header": "Track: 2025-06-04 16-33-47\tRC-102-008228\t \tEC",
-    "start_time": "133935428293570000",
-    "end_time": "133936460059120000"
-  },
-  {
-    "file": "RadiaCode_Track_31.txt",
-    "header": "Track: 2025-06-03 06-13-50\tRC-102-008228\t \tEC",
-    "start_time": "133934192393900000",
-    "end_time": "133935428122770000"
-  },
-  {
-    "file": "RadiaCode_Track_32.txt",
-    "header": "Track: 2025-06-02 06-10-03\tRC-102-008228\t \tEC",
-    "start_time": "133933326060330000",
-    "end_time": "133933691249590000"
-  },
-  {
-    "file": "RadiaCode_Track_33.txt",
-    "header": "Track: 2025-06-01 06-26-07\tRC-102-008228\t \tEC",
-    "start_time": "133932471713420000",
-    "end_time": "133932751062930000"
-  },
-  {
-    "file": "RadiaCode_Track_34.txt",
-    "header": "Track: 2025-05-31 07-49-14\tRC-102-008228\t \tEC",
-    "start_time": "133931657561790000",
-    "end_time": "133932052428860000"
-  },
-  {
-    "file": "RadiaCode_Track_35.txt",
-    "header": "Track: 2025-05-30 06-12-39\tRC-102-008228\t \tEC",
-    "start_time": "133930735621250000",
-    "end_time": "133931180114620000"
-  },
-  {
-    "file": "RadiaCode_Track_37.txt",
-    "header": "Track: 2025-05-29 06-57-53\tRC-102-008228\t \tEC",
-    "start_time": "133929898808170000",
-    "end_time": "133930139141780000"
-  },
-  {
-    "file": "RadiaCode_Track_38.txt",
-    "header": "Track: 2025-05-28 06-07-03\tRC-102-008228\t \tEC",
-    "start_time": "133929004258860000",
-    "end_time": "133929402605960000"
-  },
-  {
-    "file": "RadiaCode_Track_39.txt",
-    "header": "Track: 2025-05-27 06-11-40\tRC-102-008228\t \tEC",
-    "start_time": "133928143019020000",
-    "end_time": "133928648305490000"
-  },
-  {
-    "file": "RadiaCode_Track_4.txt",
     "header": "Track: 2025-07-03 17-09-19\tRC-102-008228\t \tEC",
     "start_time": "133960505612920000",
     "end_time": "133962268872110000"
   },
   {
-    "file": "RadiaCode_Track_40.txt",
-    "header": "Track: 2025-05-26 08-20-41\tRC-102-008228\t \tEC",
-    "start_time": "133927356431280000",
-    "end_time": "133927718180190000"
-  },
-  {
-    "file": "RadiaCode_Track_41.txt",
-    "header": "Track: 2025-05-25 06-58-12\tRC-102-008228\t \tEC",
-    "start_time": "133926442958050000",
-    "end_time": "133926852642710000"
-  },
-  {
-    "file": "RadiaCode_Track_42.txt",
-    "header": "Track: 2025-05-24 06-54-40\tRC-102-008228\t \tEC",
-    "start_time": "133925576830370000",
-    "end_time": "133925968730190000"
-  },
-  {
-    "file": "RadiaCode_Track_43.txt",
-    "header": "Track: 2025-05-24 06-54-40\tRC-102-008228\t \tEC",
-    "start_time": "133925576830370000",
-    "end_time": "133925822917160000"
-  },
-  {
-    "file": "RadiaCode_Track_44.txt",
-    "header": "Track: 2025-05-23 06-13-58\tRC-102-008228\t \tEC",
-    "start_time": "133924688403240000",
-    "end_time": "133925080440570000"
-  },
-  {
-    "file": "RadiaCode_Track_45.txt",
-    "header": "Track: 2025-05-22 06-06-10\tRC-102-008228\t \tEC",
-    "start_time": "133923819720860000",
-    "end_time": "133924277864280000"
-  },
-  {
-    "file": "RadiaCode_Track_46.txt",
-    "header": "Track: 2025-05-21 06-11-36\tRC-102-008228\t \tEC",
-    "start_time": "133922958988110000",
-    "end_time": "133923442119570000"
-  },
-  {
-    "file": "RadiaCode_Track_47.txt",
-    "header": "Track: 2025-05-20 06-06-20\tRC-102-008228\t \tEC",
-    "start_time": "133922091839280000",
-    "end_time": "133922581795940000"
-  },
-  {
-    "file": "RadiaCode_Track_48.txt",
-    "header": "Track: 2025-05-19 06-09-17\tRC-102-008228\t \tEC",
-    "start_time": "133921229596940000",
-    "end_time": "133921672943690000"
-  },
-  {
-    "file": "RadiaCode_Track_49.txt",
-    "header": "Track: 2025-05-18 07-34-26\tRC-102-008228\t \tEC",
-    "start_time": "133920416700190000",
-    "end_time": "133920616389510000"
-  },
-  {
-    "file": "RadiaCode_Track_5.txt",
+    "file": "RadiaCode_Track_11.txt",
     "header": "Track: 2025-07-03 08-29-21\tRC-102-008228\t \tEC",
     "start_time": "133960193624900000",
     "end_time": "133960505522300000"
   },
   {
-    "file": "RadiaCode_Track_50.txt",
-    "header": "Track: 2025-05-17 19-39-38\tRC-102-008228\t \tEC",
-    "start_time": "133919987865860000",
-    "end_time": "133919993356650000"
-  },
-  {
-    "file": "RadiaCode_Track_51.txt",
-    "header": "Track: 2025-05-17 08-37-22\tRC-102-008228\t \tEC",
-    "start_time": "133919590459710000",
-    "end_time": "133919924973680000"
-  },
-  {
-    "file": "RadiaCode_Track_52.txt",
-    "header": "Track: 2025-05-17 08-37-22\tRC-102-008228\t \tEC",
-    "start_time": "133919590459710000",
-    "end_time": "133919758702630000"
-  },
-  {
-    "file": "RadiaCode_Track_53.txt",
-    "header": "Track: 2025-05-17 08-37-22\tRC-102-008228\t \tEC",
-    "start_time": "133919590459710000",
-    "end_time": "133919626096340000"
-  },
-  {
-    "file": "RadiaCode_Track_54.txt",
-    "header": "Track: 2025-05-13 17-46-15\tRC-102-008228\t \tEC",
-    "start_time": "133916463788870000",
-    "end_time": "133918098830310000"
-  },
-  {
-    "file": "RadiaCode_Track_6.txt",
+    "file": "RadiaCode_Track_12.txt",
     "header": "Track: 2025-07-01 19-33-50\tRC-102-008228\t \tEC",
     "start_time": "133958864316870000",
     "end_time": "133960193465180000"
   },
   {
-    "file": "RadiaCode_Track_7.txt",
+    "file": "RadiaCode_Track_13.txt",
     "header": "Track: 2025-06-29 06-48-19\tRC-102-008228\t \tEC",
     "start_time": "133956677055360000",
     "end_time": "133958864176520000"
   },
   {
-    "file": "RadiaCode_Track_8.txt",
+    "file": "RadiaCode_Track_14.txt",
     "header": "Track: 2025-06-28 07-50-27\tRC-102-008228\t \tEC",
     "start_time": "133955850301330000",
     "end_time": "133956280626800000"
   },
   {
-    "file": "RadiaCode_Track_9.txt",
+    "file": "RadiaCode_Track_15.txt",
     "header": "Track: 2025-06-24 20-31-42\tRC-102-008228\t \tEC",
     "start_time": "133952851055730000",
     "end_time": "133955348537970000"
+  },
+  {
+    "file": "RadiaCode_Track_16.txt",
+    "header": "Track: 2025-06-22 16-19-48\tRC-102-008228\t \tEC",
+    "start_time": "133950971914780000",
+    "end_time": "133952488919830000"
+  },
+  {
+    "file": "RadiaCode_Track_17.txt",
+    "header": "Track: 2025-06-22 07-50-36\tRC-102-008228\t \tEC",
+    "start_time": "133950666381740000",
+    "end_time": "133950875963250000"
+  },
+  {
+    "file": "RadiaCode_Track_18.txt",
+    "header": "Track: 2025-06-21 15-32-37\tRC-102-008228\t \tEC",
+    "start_time": "133950079597560000",
+    "end_time": "133950143607220000"
+  },
+  {
+    "file": "RadiaCode_Track_19.txt",
+    "header": "Track: 2025-06-20 11-40-18\tRC-102-008228\t \tEC",
+    "start_time": "133949076213100000",
+    "end_time": "133950030812820000"
+  },
+  {
+    "file": "RadiaCode_Track_2.txt",
+    "header": "Track: 2025-07-17 18-27-31\tRC-110-001069\t \tEC",
+    "start_time": "133972648535880000",
+    "end_time": "133975104932150000"
+  },
+  {
+    "file": "RadiaCode_Track_20.txt",
+    "header": "Track: 2025-06-20 06-14-45\tRC-102-008228\t \tEC",
+    "start_time": "133948880873710000",
+    "end_time": "133949074787380000"
+  },
+  {
+    "file": "RadiaCode_Track_21.txt",
+    "header": "Track: 2025-06-19 10-20-19\tRC-102-008228\t \tEC",
+    "start_time": "133948164228890000",
+    "end_time": "133948315225810000"
+  },
+  {
+    "file": "RadiaCode_Track_22.txt",
+    "header": "Track: 2025-06-19 10-20-19\tRC-102-008228\t \tEC",
+    "start_time": "133948164228890000",
+    "end_time": "133948315065390000"
+  },
+  {
+    "file": "RadiaCode_Track_23.txt",
+    "header": "Track: 2025-06-18 15-20-15\tRC-102-008228\t \tEC",
+    "start_time": "133947480188670000",
+    "end_time": "133948164098140000"
+  },
+  {
+    "file": "RadiaCode_Track_24.txt",
+    "header": "Track: 2025-06-17 06-38-03\tRC-102-008228\t \tEC",
+    "start_time": "133946302847560000",
+    "end_time": "133947451691580000"
+  },
+  {
+    "file": "RadiaCode_Track_25.txt",
+    "header": "Track: 2025-06-16 06-12-40\tRC-102-008228\t \tEC",
+    "start_time": "133945423626690000",
+    "end_time": "133945881462600000"
+  },
+  {
+    "file": "RadiaCode_Track_26.txt",
+    "header": "Track: 2025-06-14 14-11-11\tRC-102-008228\t \tEC",
+    "start_time": "133943982744200000",
+    "end_time": "133944995242070000"
+  },
+  {
+    "file": "RadiaCode_Track_27.txt",
+    "header": "Track: 2025-06-12 18-29-57\tRC-102-008228\t \tEC",
+    "start_time": "133942409998190000",
+    "end_time": "133943982600740000"
+  },
+  {
+    "file": "RadiaCode_Track_28.txt",
+    "header": "Track: 2025-06-10 06-10-23\tRC-102-008228\t \tEC",
+    "start_time": "133940238261540000",
+    "end_time": "133942409885120000"
+  },
+  {
+    "file": "RadiaCode_Track_29.txt",
+    "header": "Track: 2025-06-10 06-10-23\tRC-102-008228\t \tEC",
+    "start_time": "133940238261540000",
+    "end_time": "133942279702350000"
+  },
+  {
+    "file": "RadiaCode_Track_3.txt",
+    "header": "Track: 2025-07-17 18-27-31\tRC-110-001069\t \tEC",
+    "start_time": "133972648535880000",
+    "end_time": "133973424395560000"
+  },
+  {
+    "file": "RadiaCode_Track_30.txt",
+    "header": "Track: 2025-06-09 06-17-30\tRC-102-008228\t \tEC",
+    "start_time": "133939378519830000",
+    "end_time": "133939758210790000"
+  },
+  {
+    "file": "RadiaCode_Track_32.txt",
+    "header": "Track: 2025-06-08 07-18-15\tRC-102-008228\t \tEC",
+    "start_time": "133938550988190000",
+    "end_time": "133938779444360000"
+  },
+  {
+    "file": "RadiaCode_Track_33.txt",
+    "header": "Track: 2025-06-08 07-18-15\tRC-102-008228\t \tEC",
+    "start_time": "133938550988190000",
+    "end_time": "133938779444360000"
+  },
+  {
+    "file": "RadiaCode_Track_34.txt",
+    "header": "Track: 2025-06-05 21-13-32\tRC-102-008228\t \tEC",
+    "start_time": "133936460139310000",
+    "end_time": "133938086451490000"
+  },
+  {
+    "file": "RadiaCode_Track_35.txt",
+    "header": "Track: 2025-06-05 21-13-32\tRC-102-008228\t \tEC",
+    "start_time": "133936460139310000",
+    "end_time": "133937933908770000"
+  },
+  {
+    "file": "RadiaCode_Track_36.txt",
+    "header": "Track: 2025-06-04 16-33-47\tRC-102-008228\t \tEC",
+    "start_time": "133935428293570000",
+    "end_time": "133936460059120000"
+  },
+  {
+    "file": "RadiaCode_Track_37.txt",
+    "header": "Track: 2025-06-03 06-13-50\tRC-102-008228\t \tEC",
+    "start_time": "133934192393900000",
+    "end_time": "133935428122770000"
+  },
+  {
+    "file": "RadiaCode_Track_38.txt",
+    "header": "Track: 2025-06-02 06-10-03\tRC-102-008228\t \tEC",
+    "start_time": "133933326060330000",
+    "end_time": "133933691249590000"
+  },
+  {
+    "file": "RadiaCode_Track_39.txt",
+    "header": "Track: 2025-06-01 06-26-07\tRC-102-008228\t \tEC",
+    "start_time": "133932471713420000",
+    "end_time": "133932751062930000"
+  },
+  {
+    "file": "RadiaCode_Track_4.txt",
+    "header": "Track: 2025-07-17 06-26-50\tRC-110-001069\t \tEC",
+    "start_time": "133972216130070000",
+    "end_time": "133972648396010000"
+  },
+  {
+    "file": "RadiaCode_Track_40.txt",
+    "header": "Track: 2025-05-31 07-49-14\tRC-102-008228\t \tEC",
+    "start_time": "133931657561790000",
+    "end_time": "133932052428860000"
+  },
+  {
+    "file": "RadiaCode_Track_41.txt",
+    "header": "Track: 2025-05-30 06-12-39\tRC-102-008228\t \tEC",
+    "start_time": "133930735621250000",
+    "end_time": "133931180114620000"
+  },
+  {
+    "file": "RadiaCode_Track_43.txt",
+    "header": "Track: 2025-05-29 06-57-53\tRC-102-008228\t \tEC",
+    "start_time": "133929898808170000",
+    "end_time": "133930139141780000"
+  },
+  {
+    "file": "RadiaCode_Track_44.txt",
+    "header": "Track: 2025-05-28 06-07-03\tRC-102-008228\t \tEC",
+    "start_time": "133929004258860000",
+    "end_time": "133929402605960000"
+  },
+  {
+    "file": "RadiaCode_Track_45.txt",
+    "header": "Track: 2025-05-27 06-11-40\tRC-102-008228\t \tEC",
+    "start_time": "133928143019020000",
+    "end_time": "133928648305490000"
+  },
+  {
+    "file": "RadiaCode_Track_46.txt",
+    "header": "Track: 2025-05-26 08-20-41\tRC-102-008228\t \tEC",
+    "start_time": "133927356431280000",
+    "end_time": "133927718180190000"
+  },
+  {
+    "file": "RadiaCode_Track_47.txt",
+    "header": "Track: 2025-05-25 06-58-12\tRC-102-008228\t \tEC",
+    "start_time": "133926442958050000",
+    "end_time": "133926852642710000"
+  },
+  {
+    "file": "RadiaCode_Track_48.txt",
+    "header": "Track: 2025-05-24 06-54-40\tRC-102-008228\t \tEC",
+    "start_time": "133925576830370000",
+    "end_time": "133925968730190000"
+  },
+  {
+    "file": "RadiaCode_Track_49.txt",
+    "header": "Track: 2025-05-24 06-54-40\tRC-102-008228\t \tEC",
+    "start_time": "133925576830370000",
+    "end_time": "133925822917160000"
+  },
+  {
+    "file": "RadiaCode_Track_5.txt",
+    "header": "Track: 2025-07-15 18-55-04\tRC-102-008228\t \tEC",
+    "start_time": "133970937102420000",
+    "end_time": "133972216010220000"
+  },
+  {
+    "file": "RadiaCode_Track_50.txt",
+    "header": "Track: 2025-05-23 06-13-58\tRC-102-008228\t \tEC",
+    "start_time": "133924688403240000",
+    "end_time": "133925080440570000"
+  },
+  {
+    "file": "RadiaCode_Track_51.txt",
+    "header": "Track: 2025-05-22 06-06-10\tRC-102-008228\t \tEC",
+    "start_time": "133923819720860000",
+    "end_time": "133924277864280000"
+  },
+  {
+    "file": "RadiaCode_Track_52.txt",
+    "header": "Track: 2025-05-21 06-11-36\tRC-102-008228\t \tEC",
+    "start_time": "133922958988110000",
+    "end_time": "133923442119570000"
+  },
+  {
+    "file": "RadiaCode_Track_53.txt",
+    "header": "Track: 2025-05-20 06-06-20\tRC-102-008228\t \tEC",
+    "start_time": "133922091839280000",
+    "end_time": "133922581795940000"
+  },
+  {
+    "file": "RadiaCode_Track_54.txt",
+    "header": "Track: 2025-05-19 06-09-17\tRC-102-008228\t \tEC",
+    "start_time": "133921229596940000",
+    "end_time": "133921672943690000"
+  },
+  {
+    "file": "RadiaCode_Track_55.txt",
+    "header": "Track: 2025-05-18 07-34-26\tRC-102-008228\t \tEC",
+    "start_time": "133920416700190000",
+    "end_time": "133920616389510000"
+  },
+  {
+    "file": "RadiaCode_Track_56.txt",
+    "header": "Track: 2025-05-17 19-39-38\tRC-102-008228\t \tEC",
+    "start_time": "133919987865860000",
+    "end_time": "133919993356650000"
+  },
+  {
+    "file": "RadiaCode_Track_57.txt",
+    "header": "Track: 2025-05-17 08-37-22\tRC-102-008228\t \tEC",
+    "start_time": "133919590459710000",
+    "end_time": "133919924973680000"
+  },
+  {
+    "file": "RadiaCode_Track_58.txt",
+    "header": "Track: 2025-05-17 08-37-22\tRC-102-008228\t \tEC",
+    "start_time": "133919590459710000",
+    "end_time": "133919758702630000"
+  },
+  {
+    "file": "RadiaCode_Track_59.txt",
+    "header": "Track: 2025-05-17 08-37-22\tRC-102-008228\t \tEC",
+    "start_time": "133919590459710000",
+    "end_time": "133919626096340000"
+  },
+  {
+    "file": "RadiaCode_Track_6.txt",
+    "header": "Track: 2025-07-13 19-09-56\tRC-102-008228\t \tEC",
+    "start_time": "133969217997290000",
+    "end_time": "133970672167880000"
+  },
+  {
+    "file": "RadiaCode_Track_60.txt",
+    "header": "Track: 2025-05-13 17-46-15\tRC-102-008228\t \tEC",
+    "start_time": "133916463788870000",
+    "end_time": "133918098830310000"
+  },
+  {
+    "file": "RadiaCode_Track_7.txt",
+    "header": "Track: 2025-07-12 20-15-35\tRC-102-008228\t \tEC",
+    "start_time": "133968393378780000",
+    "end_time": "133969217808460000"
+  },
+  {
+    "file": "RadiaCode_Track_8.txt",
+    "header": "Track: 2025-07-10 08-49-24\tRC-102-008228\t \tEC",
+    "start_time": "133966253673850000",
+    "end_time": "133968393228720000"
+  },
+  {
+    "file": "RadiaCode_Track_9.txt",
+    "header": "Track: 2025-07-06 07-55-12\tRC-102-008228\t \tEC",
+    "start_time": "133962765147520000",
+    "end_time": "133966247765500000"
   }
 ]

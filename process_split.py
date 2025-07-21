@@ -1,8 +1,18 @@
-import csv
 import os
+import csv
 import pandas as pd
-import math
-import datetime
+import numpy as np
+
+# haversine function
+
+def haversine(lon1, lat1, lon2, lat2):
+    lon1, lat1, lon2, lat2 = map(np.radians, [lon1, lat1, lon2, lat2])
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
+    a = np.sin(dlat/2)**2 + np.cos(lat1)*np.cos(lat2)*np.sin(dlon/2)**2
+    c = 2 * np.arcsin(np.sqrt(a))
+    return 6371000 * c  # meters
+
 
 def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -11,24 +21,25 @@ def main():
     output_dir = os.path.join(base_dir, 'files_output_collection')
     os.makedirs(output_dir, exist_ok=True)
 
-    # Read scrubbed CSV only
+    # Read scrubbed CSV
     print(f"Reading input from scrubbed CSV: {input_csv}")
     df = pd.read_csv(input_csv)
-    # Ensure Time column is datetime and sort DataFrame chronologically
+    # Ensure Time column is datetime and sort chronologically
     df['Time'] = pd.to_datetime(df['Time'])
     df = df.sort_values('Time').reset_index(drop=True)
-    # Add month column YYYY-MM for monthly grouping
+    # Add month column YYYY-MM for grouping
     df['month'] = df['Time'].dt.strftime('%Y-%m')
 
-    # Use epoch-time window for chunk splitting (default = 1 day) and size threshold
+    # Splitting thresholds
     time_window_seconds = 24 * 3600  # 1 day
     time_window_ns = time_window_seconds * 10**9
-    chunk_size_bytes = 9 * 1024 * 1024  # ~9 MB target
+    chunk_size_bytes = 9 * 1024 * 1024  # ~9 MB
 
-    # Define columns to write and device ID for headers
+    # Define output columns and device ID
     columns = df.columns.drop('month').tolist()
     device_id = 'RC-102-008228'
 
+    # Iterate months and chunk by size or time window
     for month in df['month'].sort_values().unique():
         month_df = df[df['month'] == month].reset_index(drop=True)
         print(f"Processing month {month} with {len(month_df)} records")
@@ -39,7 +50,6 @@ def main():
         chunk_idx = 1
         chunk_start_ts = None
         for idx, row in month_df.iterrows():
-            # Close existing chunk if time or size threshold reached
             if csv_file is not None:
                 size_reached = os.path.getsize(csv_path) >= chunk_size_bytes
                 time_reached = (row['Timestamp'] - chunk_start_ts) >= time_window_ns
@@ -55,7 +65,6 @@ def main():
                     rctrk_path = None
 
             if csv_file is None:
-                # Initialize new chunk and record its start timestamp
                 csv_path = os.path.join(output_dir, f'master_{month}_part_{chunk_idx}.csv')
                 rctrk_path = os.path.join(output_dir, f'master_{month}_part_{chunk_idx}.rctrk')
                 csv_file = open(csv_path, 'w', newline='', encoding='utf-8')
@@ -69,21 +78,22 @@ def main():
                 chunk_start_ts = row['Timestamp']
                 print(f"Opened {month} chunk {chunk_idx} at {chunk_start_ts}")
 
-            # Write row to both CSV and .rctrk
+            # Write data rows
             vals = [row[col] for col in columns]
             csv_writer.writerow(vals)
             rctrk_file.write('\t'.join(str(v) for v in vals) + '\n')
             csv_file.flush()
 
-        # Close any open file for this month
+        # Close final chunk for month
         if csv_file:
             csv_file.close()
             rctrk_file.close()
             print(f"Closed final {month} chunk {chunk_idx}")
+
     # Summary
     print("Splitting by month completed.")
-    print(f'Input records: {len(df)}')
-    print(f'Chunk time window: {time_window_seconds} seconds, size target: {chunk_size_bytes} bytes')
+    print(f"Input records: {len(df)}")
+    print(f"Chunk thresholds: {time_window_seconds} seconds or {chunk_size_bytes} bytes")
 
 if __name__ == '__main__':
     main()

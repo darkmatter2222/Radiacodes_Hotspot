@@ -39,7 +39,11 @@ def main():
         rad = ex['radius_m']
         dist = haversine(df['Longitude'], df['Latitude'], lon0, lat0)
         mask |= (dist <= rad)
+    # Remove excluded points and then dedupe identical records
     df_clean = df[~mask].copy()
+    before_dedup = len(df_clean)
+    df_clean = df_clean.drop_duplicates().reset_index(drop=True)
+    duplicates_removed = before_dedup - len(df_clean)
     final_count = len(df_clean)
 
     # Save scrubbed CSV
@@ -50,6 +54,7 @@ def main():
     print("Scrubbing complete:")
     print(f"- Initial records: {initial_count}")
     print(f"- Excluded records: {mask.sum()}")
+    print(f"- Removed duplicates: {duplicates_removed}")
     print(f"- Remaining records: {final_count}")
     print(f"Scrubbed CSV saved to {out_csv}")
 
